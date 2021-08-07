@@ -12,7 +12,7 @@
 }
 
 body{
-  font-family: 'Concert One', cursive;
+  font-family: 'Concert One';
   background-color: var(--primary);
   color: var(--secondary);
   font-size: 20px;
@@ -615,10 +615,10 @@ body{
 
 .rules-container{
   position: absolute;
-  top: 10%;
-  left: 10%;
+  top: 100px;
+  padding: 0 10%;
   height: 80vh;
-  width: 80vw;
+  width: 100%;
   background-color: var(--primary);
   overflow-y: scroll;
 }
